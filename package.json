@@ -1,8 +1,8 @@
 {
   "name": "@leoboyerbx/webpack-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Générateur de projets webpack, avec plusieurs options disponibles",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +14,7 @@
     "shelljs": "^0.8.3"
   },
   "bin": {
-    "webpack-starter": "./index.js"
-  }
+    "webpack-starter-module": "./lib/index.js"
+  },
+  "preferGlobal": true
 }
