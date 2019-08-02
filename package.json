@@ -1,12 +1,12 @@
 {
-  "name": "webpack-starter",
+  "name": "@leoboyerbx/webpack-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Générateur de projets webpack, avec plusieurs options disponibles",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "leoboyerbx",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.2",
