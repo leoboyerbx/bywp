@@ -1,5 +1,5 @@
 {
-  "name": "@leoboyerbx/webpack-starter",
+  "name": "webpack-starter-tmp",
   "version": "1.0.1",
   "description": "Générateur de projets webpack, avec plusieurs options disponibles",
   "main": "./lib/index.js",
@@ -14,7 +14,7 @@
     "shelljs": "^0.8.3"
   },
   "bin": {
-    "webpack-starter-module": "./lib/index.js"
+    "webpack-starter-win": "webpack-starter.bat"
   },
   "preferGlobal": true
 }
